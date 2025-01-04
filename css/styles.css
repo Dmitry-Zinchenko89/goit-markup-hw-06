@@ -658,7 +658,8 @@ button {
 }
 /*section-two*/
 .section-two {
-  margin-bottom: 96px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 .list-section-two {
   display: flex;
@@ -691,8 +692,8 @@ button {
 /*section-three*/
 .section-three {
   background: #f4f4fd;
+  padding-top: 96px;
   padding-bottom: 96px;
-  margin-bottom: 96px;
 }
 .title-section-three {
   font-weight: 700;
@@ -701,7 +702,6 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  padding-top: 96px;
   margin-bottom: 72px;
 }
 .list-section-three {
@@ -722,7 +722,7 @@ button {
   border-radius: 0 0 4px 4px;
   padding: 0px 0px 32px 0px;
   width: 264px;
-  height: 428px;
+
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background-color: #fff;
@@ -778,7 +778,7 @@ button {
 }
 /*section-four*/
 .section-four {
-  margin-bottom: 96px;
+  padding-bottom: 96px;
 }
 .title-section-four {
   font-weight: 700;
@@ -787,6 +787,7 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  padding-top: 96px;
   padding-bottom: 72px;
 }
 .text-sect-four {
@@ -844,7 +845,7 @@ button {
 
 .footer-container {
   width: 288px;
-  height: 112px;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -977,6 +978,8 @@ button {
 /*tablet-section-one*/
 @media screen and (min-width: 768px) {
   .section-one {
+    padding-top: 112px;
+    padding-bottom: 112px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -1023,8 +1026,8 @@ button {
   .list-section-two {
     display: flex;
     flex-direction: row;
-    gap: 24px;
-    margin-bottom: 72px;
+    column-gap: 24px;
+
     flex-wrap: wrap;
     justify-content: center;
   }
@@ -1034,7 +1037,6 @@ button {
     justify-content: flex-start;
     gap: 8px;
     width: 356px;
-    height: 120px;
   }
   .sect-two-container {
     display: none;
@@ -1057,7 +1059,7 @@ button {
 
   /*section-three*/
   .section-three {
-    margin-bottom: 96px;
+    padding-bottom: 96px;
   }
   .title-section-three {
     font-weight: 700;
@@ -1086,7 +1088,7 @@ button {
     border-radius: 0 0 4px 4px;
     padding: 0px 0px 32px 0px;
     width: 264px;
-    height: 428px;
+
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
       0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
@@ -1207,7 +1209,7 @@ button {
   }
   .footer-container {
     width: 264px;
-    height: 112px;
+
     align-items: flex-start;
 
     text-align: left;
@@ -1855,9 +1857,8 @@ button {
     gap: 24px;
   }
   .item-section-three {
-    height: auto;
     gap: 24px;
-    margin-right: 24px;
+
     width: calc((100% - 3 * 24px) / 4);
     border-radius: 0px 0px 4px 4px;
     background-color: #ffffff;
@@ -1999,7 +2000,6 @@ button {
     padding: 100px 0;
   }
   .footer .container {
-    display: flex;
     align-items: baseline;
     width: 1158px;
     padding: 0 15px;
@@ -2008,6 +2008,7 @@ button {
   .footer-container {
     margin-right: 120px;
     margin-bottom: 0;
+    gap: 0;
   }
 
   .logo-footer {
@@ -2041,6 +2042,7 @@ button {
   }
   .footer-icon {
     align-items: flex-start;
+    margin-bottom: 0;
   }
   .footer-text-icon {
     font-weight: 500;
@@ -2302,10 +2304,14 @@ button {
     color: #ffffff;
   }
   .form-container-footer {
+    margin-bottom: 0;
+    padding-left: 0;
+    margin-left: 80px;
   }
   .form-footer {
     display: flex;
     gap: 24px;
+    margin-bottom: 0;
   }
   .input-footer {
     width: 264px;
