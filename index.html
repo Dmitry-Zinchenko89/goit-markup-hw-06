@@ -64,39 +64,89 @@
           </svg>
         </button>
       </div>
-      <div class="mobile-menu-wrapper is-open">
+      <div class="mobile-menu-wrapper">
         <div class="container mobile-menu-container">
-          <button class="mobile-menu-close"><svg class="icon-close-menu" width="8" height="8">
-            <use href="./images/icons.svg#close"></use>
-          </svg></button>
-          <nav class="mobile-menu-nav"></nav>
-          <ul class="mobile-list">
-            <li class="mobile-item"><a class="mobile-link mobile-active" href="./index.html">Studio</a> </li>
-            <li class="mobile-item"> <a class="mobile-link" href="">Portfolio</a></li>
-            <li class="mobile-item"> <a class="mobile-link" href="">Contacts</a></li>
-          </ul>
+          <button class="mobile-menu-close">
+            <svg class="icon-close-menu" width="8" height="8">
+              <use href="./images/icons.svg#close"></use>
+            </svg>
+          </button>
+
+          <nav class="mobile-menu-nav">
+            <ul class="mobile-list">
+              <li class="mobile-item">
+                <a class="mobile-link mobile-active" href="./index.html"
+                  >Studio</a
+                >
+              </li>
+              <li class="mobile-item">
+                <a class="mobile-link" href="">Portfolio</a>
+              </li>
+              <li class="mobile-item">
+                <a class="mobile-link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
           <address>
             <ul class="menu-address-list">
-              <li class="menu-address-item"> <a class="menu-address-link" href=""></a></li>
-              <li class="menu-address-item"> <a class="menu-address-link" href=""></a></li>
+              <li class="menu-address-item">
+                <a class="menu-address-link-tel" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="menu-address-item">
+                <a
+                  class="menu-address-link-email"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
             </ul>
           </address>
-       
+
+          <div class="mobile-menu-icon">
+            <ul class="mobile-menu-icon-list">
+              <li class="mobile-menu-icon-item">
+                <a class="mobile-menu-icon-link" href=""></a
+                ><svg class="social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#instagram"></use>
+                </svg>
+              </li>
+              <li class="mobile-menu-icon-item">
+                <a class="mobile-menu-icon-link" href=""></a
+                ><svg class="social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#twitter"></use>
+                </svg>
+              </li>
+              <li class="mobile-menu-icon-item">
+                <a class="mobile-menu-icon-link" href=""></a
+                ><svg class="social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#facebook"></use>
+                </svg>
+              </li>
+              <li class="mobile-menu-icon-item">
+                <a class="mobile-menu-icon-link" href=""></a
+                ><svg class="social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#linkedin"></use>
+                </svg>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
 
     <main>
-      <!--Section-one
       <section class="section-one">
         <div class="container">
+          <picture> </picture>
           <h1 class="title-section-one">
             Effective Solutions for Your Business
           </h1>
           <button class="btn-section-one" type="button">Order Service</button>
         </div>
       </section>
--->
-      <!--Section-two
+
       <section class="section-two">
         <div class="container">
           <h2 class="title-section-two visually-hidden">Advantages</h2>
@@ -108,12 +158,13 @@
                   <use href="./images/icons.svg#antenna"></use>
                 </svg>
               </div>
-
-              <h3 class="subject">Strategy</h3>
-              <p class="description">
-                Our goal is to identify the business problem to walk away with
-                the perfect and creative solution.
-              </p>
+              <div class="subject-container">
+                <h3 class="subject">Strategy</h3>
+                <p class="description">
+                  Our goal is to identify the business problem to walk away with
+                  the perfect and creative solution.
+                </p>
+              </div>
             </li>
             <li class="item-section-two">
               <div class="sect-two-container">
@@ -121,11 +172,13 @@
                   <use href="./images/icons.svg#clock"></use>
                 </svg>
               </div>
-              <h3 class="subject">Punctuality</h3>
-              <p class="description">
-                Bring the key message to the brand's audience for the best price
-                within the shortest possible time.
-              </p>
+              <div class="subject-container">
+                <h3 class="subject">Punctuality</h3>
+                <p class="description">
+                  Bring the key message to the brand's audience for the best
+                  price within the shortest possible time.
+                </p>
+              </div>
             </li>
             <li class="item-section-two">
               <div class="sect-two-container">
@@ -133,11 +186,13 @@
                   <use href="./images/icons.svg#diagram"></use>
                 </svg>
               </div>
-              <h3 class="subject">Diligence</h3>
-              <p class="description">
-                Research and confirm brands that present the strongest digital
-                growth opportunities and minimize risk.
-              </p>
+              <div class="subject-container">
+                <h3 class="subject">Diligence</h3>
+                <p class="description">
+                  Research and confirm brands that present the strongest digital
+                  growth opportunities and minimize risk.
+                </p>
+              </div>
             </li>
             <li class="item-section-two">
               <div class="sect-two-container">
@@ -145,30 +200,32 @@
                   <use href="./images/icons.svg#astronaut"></use>
                 </svg>
               </div>
-              <h3 class="subject">Technologies</h3>
-              <p class="description">
-                Design practice focused on digital experiences. We bring forth a
-                deep passion for problem-solving.
-              </p>
+              <div class="subject-container">
+                <h3 class="subject">Technologies</h3>
+                <p class="description">
+                  Design practice focused on digital experiences. We bring forth
+                  a deep passion for problem-solving.
+                </p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
-      -->
-      <!--Section-three
+
       <section class="section-three">
         <div class="container">
           <h2 class="title-section-three">Our Team</h2>
           <ul class="list-section-three">
             <li class="item-section-three">
               <img
-                src="./images/img-3.jpg"
+                src="./images/mark-1x.jpg"
+                srcset="./images/mark-2x.jpg 2x"
                 alt="Product Designer"
                 width="264"
               />
               <div class="info-subject">
-                <h3 class="subject">Mark Guerrero</h3>
-                <p class="description">Product Designer</p>
+                <h3 class="subject-name">Mark Guerrero</h3>
+                <p class="description-prof">Product Designer</p>
 
                 <ul class="sect-three-list">
                   <li class="sect-three-item">
@@ -205,13 +262,14 @@
 
             <li class="item-section-three">
               <img
-                src="./images/img-2.jpg"
+                src="./images/tom-1x.jpg"
+                srcset="./images/tom-2x.jpg 2x"
                 alt="Frontend Developer"
                 width="264"
               />
               <div class="info-subject">
-                <h3 class="subject">Tom Ford</h3>
-                <p class="description">Frontend Developer</p>
+                <h3 class="subject-name">Tom Ford</h3>
+                <p class="description-prof">Frontend Developer</p>
 
                 <ul class="sect-three-list">
                   <li class="sect-three-item">
@@ -247,10 +305,15 @@
             </li>
 
             <li class="item-section-three">
-              <img src="./images/img-1.jpg" alt="Marketing" width="264" />
+              <img
+                src="./images/camila-1x.jpg"
+                srcset="./images/camila-2x.jpg 2x"
+                alt="Marketing"
+                width="264"
+              />
               <div class="info-subject">
-                <h3 class="subject">Camila Garcia</h3>
-                <p class="description">Marketing</p>
+                <h3 class="subject-name">Camila Garcia</h3>
+                <p class="description-prof">Marketing</p>
 
                 <ul class="sect-three-list">
                   <li class="sect-three-item">
@@ -286,10 +349,15 @@
             </li>
 
             <li class="item-section-three">
-              <img src="./images/img-4.jpg" alt="UI Designer" width="264" />
+              <img
+                src="./images/daniel-1x.jpg"
+                srcset="./images/daniel-2x.jpg 2x"
+                alt="UI Designer"
+                width="264"
+              />
               <div class="info-subject">
-                <h3 class="subject">Daniel Wilson</h3>
-                <p class="description">UI Designer</p>
+                <h3 class="subject-name">Daniel Wilson</h3>
+                <p class="description-prof">UI Designer</p>
 
                 <ul class="sect-three-list">
                   <li class="sect-three-item">
@@ -326,15 +394,24 @@
           </ul>
         </div>
       </section>
-      -->
-      <!--Section-four
+
       <section class="section-four">
         <div class="container">
           <h2 class="title-section-four">Our Portfolio</h2>
           <ul class="list-section-four">
             <li class="item-section-four">
               <div class="img-container">
-                <img src="./images/img-5.jpg" alt="App" width="360" />
+                <picture>
+                  <source
+                    media="(min-width:1158px)"
+                    srcset="
+                      ./images/Laptop/banking-laptop1x.jpg  1x,
+                      ./images/Laptop/banking-laptop@2x.jpg 2x
+                    "
+                  />
+                  <source />
+                  <source />
+                </picture>
                 <p class="text-sect-four">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -343,13 +420,18 @@
               </div>
 
               <div class="info-subject-four">
-                <h3 class="subject">Banking App</h3>
-                <p class="description">App</p>
+                <h3 class="subject-four">Banking App</h3>
+                <p class="description-four">App</p>
               </div>
             </li>
             <li class="item-section-four">
               <div class="img-container">
-                <img src="./images/img-6.jpg" alt="Mobile phone" width="360" />
+                <img
+                  src="./images/Tablet/mobiles.jpg"
+                  alt="Mobile phone"
+                  width="356"
+                  height="300"
+                />
                 <p class="text-sect-four">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -357,13 +439,18 @@
                 </p>
               </div>
               <div class="info-subject-four">
-                <h3 class="subject">Cashless Payment</h3>
-                <p class="description">Marketing</p>
+                <h3 class="subject-four">Cashless Payment</h3>
+                <p class="description-four">Marketing</p>
               </div>
             </li>
             <li class="item-section-four">
               <div class="img-container">
-                <img src="./images/img-7.jpg" alt="Laptop" width="360" />
+                <img
+                  src="./images/Tablet/laptop.jpg"
+                  alt="Laptop"
+                  width="356"
+                  height="300"
+                />
                 <p class="text-sect-four">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -372,13 +459,18 @@
               </div>
 
               <div class="info-subject-four">
-                <h3 class="subject">Meditation App</h3>
-                <p class="description">App</p>
+                <h3 class="subject-four">Meditation App</h3>
+                <p class="description-four">App</p>
               </div>
             </li>
             <li class="item-section-four">
               <div class="img-container">
-                <img src="./images/img-8.jpg" alt="Taxi" width="360" />
+                <img
+                  src="./images/Tablet/taxi.jpg"
+                  alt="Taxi"
+                  width="356"
+                  height="300"
+                />
                 <p class="text-sect-four">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -386,13 +478,18 @@
                 </p>
               </div>
               <div class="info-subject-four">
-                <h3 class="subject">Taxi Service</h3>
-                <p class="description">Marketing</p>
+                <h3 class="subject-four">Taxi Service</h3>
+                <p class="description-four">Marketing</p>
               </div>
             </li>
             <li class="item-section-four">
               <div class="img-container">
-                <img src="./images/img-9.jpg" alt="Mobile phone" width="360" />
+                <img
+                  src="./images/Tablet/mobile.jpg"
+                  alt="Mobile phone"
+                  width="356"
+                  height="300"
+                />
                 <p class="text-sect-four">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -400,13 +497,18 @@
                 </p>
               </div>
               <div class="info-subject-four">
-                <h3 class="subject">Screen Illustrations</h3>
-                <p class="description">Design</p>
+                <h3 class="subject-four">Screen Illustrations</h3>
+                <p class="description-four">Design</p>
               </div>
             </li>
             <li class="item-section-four">
               <div class="img-container">
-                <img src="./images/img10.jpg" alt="Woman" width="360" />
+                <img
+                  src="./images/Tablet/girl.jpg"
+                  alt="Woman"
+                  width="356"
+                  height="300"
+                />
                 <p class="text-sect-four">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -414,16 +516,15 @@
                 </p>
               </div>
               <div class="info-subject-four">
-                <h3 class="subject">Online Courses</h3>
-                <p class="description">Marketing</p>
+                <h3 class="subject-four">Online Courses</h3>
+                <p class="description-four">Marketing</p>
               </div>
             </li>
           </ul>
         </div>
       </section>
-      -->
     </main>
-    <!--Footer
+
     <footer class="footer">
       <div class="container">
         <div class="footer-container">
@@ -482,7 +583,8 @@
               />
             </label>
             <button class="btn-form-footer" type="submit">
-              Subscribe
+              <p class="btn-text">Subscribe</p>
+
               <svg class="form-footer-icon" width="24" height="24">
                 <use href="./images/icons.svg#send"></use>
               </svg>
@@ -491,8 +593,7 @@
         </div>
       </div>
     </footer>
-    -->
-    <!--Backdrop
+
     <div class="backdrop">
       <div class="modal">
         <button class="modal-close" type="button">
@@ -572,15 +673,18 @@
             <label class="form-user-checkbox" for="user-privacy"
               ><span class="custom-checkbox"
                 ><svg class="custom-checkbox-icon" width="10" height="8">
-                  <use href="./images/icons.svg#ok"></use></svg></span
-              >I accept the terms and conditions of the
-              <a href="#" class="blue">Privacy Policy</a></label
-            >
+                  <use href="./images/icons.svg#ok"></use>
+                </svg>
+              </span>
+              <span class="span-text">
+                I accept the terms and conditions of the
+                <a href="#" class="blue">Privacy Policy</a>
+              </span>
+            </label>
           </div>
           <button class="modal-send" type="submit">Send</button>
         </form>
       </div>
     </div>
-    -->
   </body>
 </html>
