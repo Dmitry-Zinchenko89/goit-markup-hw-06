@@ -791,7 +791,7 @@ button {
   padding-bottom: 72px;
 }
 .text-sect-four {
-  visibility: hidden;
+  display: none;
 }
 .list-section-four {
   display: flex;
@@ -813,7 +813,6 @@ button {
 }
 .img-container {
   width: 288px;
-  height: 243px;
 }
 .info-subject-four .subject {
   font-weight: 500;
@@ -928,6 +927,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+  text-align: center;
 }
 .form-container-footer {
   display: flex;
@@ -1120,6 +1120,7 @@ button {
 
   /*section-four*/
   .section-four {
+    padding-bottom: 72px;
   }
   .section-four .container {
     display: flex;
@@ -1134,7 +1135,7 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    padding-bottom: 72px;
+
     margin: 0;
   }
   .list-section-four {
@@ -2295,6 +2296,10 @@ button {
   }
   /* #endregion */
   /* #region form-footer */
+  .footer .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
   .form-footer-text {
     margin-bottom: 16px;
     font-weight: 500;
